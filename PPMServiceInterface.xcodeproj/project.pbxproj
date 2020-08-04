@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1AD8AA9824D9199A00F7FAF4 /* PPMServiceInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD8AA9624D9199A00F7FAF4 /* PPMServiceInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD8AAA024D919C700F7FAF4 /* IPPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AA9F24D919C700F7FAF4 /* IPPMService.swift */; };
+		1AD8AAA324D91A3600F7FAF4 /* IDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAA224D91A3600F7FAF4 /* IDefinition.swift */; };
+		1AD8AAA524D91A7600F7FAF4 /* IBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAA424D91A7600F7FAF4 /* IBenefit.swift */; };
+		1AD8AAA724D91A7E00F7FAF4 /* ICondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAA624D91A7E00F7FAF4 /* ICondition.swift */; };
+		1AD8AAA924D91A8B00F7FAF4 /* ITimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAA824D91A8B00F7FAF4 /* ITimeRange.swift */; };
+		1AD8AAAB24D91AA300F7FAF4 /* IMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAAA24D91AA300F7FAF4 /* IMoney.swift */; };
+		1AD8AAAD24D91AAC00F7FAF4 /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAAC24D91AAC00F7FAF4 /* IItem.swift */; };
+		1AD8AAAF24D91AB500F7FAF4 /* IVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAAE24D91AB500F7FAF4 /* IVoucher.swift */; };
+		1AD8AAB124D91AD600F7FAF4 /* IAppliedPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8AAB024D91AD600F7FAF4 /* IAppliedPromotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AD8AA9324D9199A00F7FAF4 /* PPMServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPMServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD8AA9624D9199A00F7FAF4 /* PPMServiceInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPMServiceInterface.h; sourceTree = "<group>"; };
 		1AD8AA9724D9199A00F7FAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD8AA9F24D919C700F7FAF4 /* IPPMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPPMService.swift; sourceTree = "<group>"; };
+		1AD8AAA224D91A3600F7FAF4 /* IDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDefinition.swift; sourceTree = "<group>"; };
+		1AD8AAA424D91A7600F7FAF4 /* IBenefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBenefit.swift; sourceTree = "<group>"; };
+		1AD8AAA624D91A7E00F7FAF4 /* ICondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICondition.swift; sourceTree = "<group>"; };
+		1AD8AAA824D91A8B00F7FAF4 /* ITimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITimeRange.swift; sourceTree = "<group>"; };
+		1AD8AAAA24D91AA300F7FAF4 /* IMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMoney.swift; sourceTree = "<group>"; };
+		1AD8AAAC24D91AAC00F7FAF4 /* IItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
+		1AD8AAAE24D91AB500F7FAF4 /* IVoucher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVoucher.swift; sourceTree = "<group>"; };
+		1AD8AAB024D91AD600F7FAF4 /* IAppliedPromotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAppliedPromotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +64,35 @@
 		1AD8AA9524D9199A00F7FAF4 /* PPMServiceInterface */ = {
 			isa = PBXGroup;
 			children = (
+				1AD8AA9E24D9199F00F7FAF4 /* Classes */,
 				1AD8AA9624D9199A00F7FAF4 /* PPMServiceInterface.h */,
 				1AD8AA9724D9199A00F7FAF4 /* Info.plist */,
 			);
 			path = PPMServiceInterface;
+			sourceTree = "<group>";
+		};
+		1AD8AA9E24D9199F00F7FAF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8AAA124D91A1E00F7FAF4 /* Models */,
+				1AD8AA9F24D919C700F7FAF4 /* IPPMService.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1AD8AAA124D91A1E00F7FAF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8AAA224D91A3600F7FAF4 /* IDefinition.swift */,
+				1AD8AAA424D91A7600F7FAF4 /* IBenefit.swift */,
+				1AD8AAA624D91A7E00F7FAF4 /* ICondition.swift */,
+				1AD8AAA824D91A8B00F7FAF4 /* ITimeRange.swift */,
+				1AD8AAAA24D91AA300F7FAF4 /* IMoney.swift */,
+				1AD8AAAC24D91AAC00F7FAF4 /* IItem.swift */,
+				1AD8AAAE24D91AB500F7FAF4 /* IVoucher.swift */,
+				1AD8AAB024D91AD600F7FAF4 /* IAppliedPromotion.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +138,7 @@
 				TargetAttributes = {
 					1AD8AA9224D9199A00F7FAF4 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -131,6 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD8AAAB24D91AA300F7FAF4 /* IMoney.swift in Sources */,
+				1AD8AAA324D91A3600F7FAF4 /* IDefinition.swift in Sources */,
+				1AD8AAA924D91A8B00F7FAF4 /* ITimeRange.swift in Sources */,
+				1AD8AAAD24D91AAC00F7FAF4 /* IItem.swift in Sources */,
+				1AD8AAB124D91AD600F7FAF4 /* IAppliedPromotion.swift in Sources */,
+				1AD8AAA024D919C700F7FAF4 /* IPPMService.swift in Sources */,
+				1AD8AAA524D91A7600F7FAF4 /* IBenefit.swift in Sources */,
+				1AD8AAAF24D91AB500F7FAF4 /* IVoucher.swift in Sources */,
+				1AD8AAA724D91A7E00F7FAF4 /* ICondition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +313,7 @@
 		1AD8AA9C24D9199A00F7FAF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vn.teko.PPMServiceInterface;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +338,7 @@
 		1AD8AA9D24D9199A00F7FAF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
